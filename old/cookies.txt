@@ -1,0 +1,9 @@
+polkfl.realtaxlien.com	FALSE	/	FALSE	0	JSESSIONID	A96D83634C805FEECDCD1DF53D8821F8
+polkfl.realtaxlien.com	FALSE	/	FALSE	0	__utma	30132796.852649321.1718606125.1718606125.1718606125.1
+polkfl.realtaxlien.com	FALSE	/	FALSE	0	__utmc	30132796
+polkfl.realtaxlien.com	FALSE	/	FALSE	0	__utmz	30132796.1718606125.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+polkfl.realtaxlien.com	FALSE	/	FALSE	0	cfid	627f20fa-fa90-4b46-8393-6d6465e5b389
+polkfl.realtaxlien.com	FALSE	/	FALSE	0	cftoken	0
+polkfl.realtaxlien.com	FALSE	/	FALSE	0	CF_CLIENT_POLKFL_REALTAXLIEN_COM_LV	1718607810680
+polkfl.realtaxlien.com	FALSE	/	FALSE	0	CF_CLIENT_POLKFL_REALTAXLIEN_COM_TC	1718606174796
+polkfl.realtaxlien.com	FALSE	/	FALSE	0	CF_CLIENT_POLKFL_REALTAXLIEN_COM_HC	60

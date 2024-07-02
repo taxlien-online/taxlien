@@ -1,0 +1,4 @@
+Advertising_Number,Block,Lot,Qual,Face_Value,Winning_Bidder_number,Name, WinningBid
+0001,4,8.02,,9407.97,081,PRO CAP 8  LLC,$20100.00
+0002,4,8.03,,4023.69,078,AP ROTH LIEN INVESTMENT LLC,9.00%
+0004,23.06,2,,8486.42,051,FIG NJ19  LLC,$29700.00

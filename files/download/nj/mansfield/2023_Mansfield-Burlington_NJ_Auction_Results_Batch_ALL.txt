@@ -1,0 +1,3 @@
+Advertising_Number,Block,Lot,Qual,Face_Value,Winning_Bidder_number,Name, WinningBid
+0002,9.01,1.29,,12535.06,083,USBANK CUST FOR ACTLIEN HOLDING INC,$45600.00
+0003,42.13,21,,6300.85,145,BERIL LLC,$7400.00

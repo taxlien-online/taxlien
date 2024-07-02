@@ -1,0 +1,19 @@
+curl 'https://polkfl.realtaxlien.com/popup/popup-certificates.cfm' \
+  -H 'accept: text/html, */*; q=0.01' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'cookie: JSESSIONID=C45FAD0610A490037CC1659C361A7BA9; __utma=30132796.1905828075.1718691834.1718691834.1718691834.1; __utmc=30132796; __utmz=30132796.1718691834.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1; cfid=a36f3f85-bf26-4763-8185-e227444e5a83; cftoken=0; __utmb=30132796.10.10.1718691834; CF_CLIENT_POLKFL_REALTAXLIEN_COM_LV=1718692377127; CF_CLIENT_POLKFL_REALTAXLIEN_COM_TC=1718691847011; CF_CLIENT_POLKFL_REALTAXLIEN_COM_HC=29' \
+  -H 'origin: https://polkfl.realtaxlien.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://polkfl.realtaxlien.com/index.cfm?folder=searchCert&itemSetDID=2021' \
+  -H 'sec-ch-ua: "Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  --data-raw 'certID=6263045&page=certpop-property-details.cfm' > 1.html

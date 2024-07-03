@@ -52,7 +52,8 @@ def read_and_process_file(input_filepath, output_filepath):
         data_start_index = 1
     else:
         # Устанавливаем порядок столбцов, если в первой строке оказались данные
-        standardized_headers = ['ADVNUM', 'CERTIFICATE NUMBER', 'PARCEL', 'WINNINGBID', 'FACE AMOUNT', 'BIDDER ID', 'PRIMARY NAME ON ACCOUNT']
+        # standardized_headers = ['ADVNUM', 'PARCEL', 'WINNINGBID', 'FACE AMOUNT', 'BIDDER ID', 'PRIMARY NAME ON ACCOUNT']
+        standardized_headers = ['ADVNUM', 'PARCEL', 'FACE AMOUNT', 'BIDDER ID', 'PRIMARY NAME ON ACCOUNT', 'WINNINGBID']
         data_start_index = 0
 
     # Формирование выходного файла
@@ -64,7 +65,7 @@ def read_and_process_file(input_filepath, output_filepath):
         writer.writerow(output_headers)
 
         # Обработка каждой строки
-        for line in lines[1:]:
+        for line in lines[data_start_index:]:
             line = re.sub(r'\$(\d+),(\d+\.\d+)', r'$\1\2', line)
             line = re.sub(r', LLC', ' LLC', line)
             line = re.sub(r', INC', ' INC', line)
